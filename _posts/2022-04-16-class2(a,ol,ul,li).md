@@ -1,4 +1,4 @@
-# 2022. 04 .14 수업내용 정리
+# 2022. 04 .14. 수업내용 정리 #1/2
 ## 코드 위주로..
 ### 1편과 2편으로 나누어서 정리, 오늘은 1편
 
@@ -85,16 +85,16 @@
   위의 코드를 적용하면 아래 ▼ 와 같은 결과가 나온다. <br><br>
     + 프론트엔드 
       * 기술스택
-        - ![html-css](../images/2022-04-16-second/html-css.png)
-        - ![javascript](../images/2022-04-16-second/javascript.png)
+        - <img src="../images/2022-04-16-second/html-css.png" alt="html-css" style="zoom:67%;" />
+        - <img src="../images/2022-04-16-second/javascript.png" alt="javascript" style="zoom:67%;" />
         - ![react](../images/2022-04-16-second/react.png)
-        - ![VUE](../images/2022-04-16-second/VUE.PNG)
+        - <img src="../images/2022-04-16-second/VUE.PNG" alt="VUE" style="zoom: 67%;" />
     
     + 백엔드
       * 기술스택
         - ![java](../images/2022-04-16-second/java.png)
-        - ![spring](../images/2022-04-16-second/spring.jpg)
+        - <img src="../images/2022-04-16-second/spring.jpg" alt="spring" style="zoom: 33%;" />
         - ![docker](../images/2022-04-16-second/docker-16501231867039.png)
-        -  ![MySQL](../images/2022-04-16-second/MySQL.png)
+        -  <img src="../images/2022-04-16-second/MySQL.png" alt="MySQL" style="zoom:67%;" />
 
  
