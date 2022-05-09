@@ -1,3 +1,6 @@
+---
+categories: HTML/CSS
+---
 # 2022. 04. 21. 수업내용 정리
 
 ## span, input, form, table...

@@ -1,3 +1,7 @@
+---
+categories: HTML/CSS
+---
+
 # 2022. 04.19. 수업내용 정리 #1/2
 
 ## display 속성 정리 with div tag

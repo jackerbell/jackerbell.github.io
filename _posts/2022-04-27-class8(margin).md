@@ -1,3 +1,7 @@
+---
+categories: HTML/CSS
+---
+
 # 2022. 04. 26. 수업내용 정리 #1/3
 
 ## margin 정리
