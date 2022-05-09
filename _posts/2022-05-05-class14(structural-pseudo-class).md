@@ -57,7 +57,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class12(structural-pseudo-class)/구조가상요소예시1.png" alt="구조가상요소예시1" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class12(structural-pseudo-class)/구조가상요소예시1.png" alt="구조가상요소예시1" style="zoom:80%;" /><br>
 
 + :last-child
 
@@ -92,7 +92,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/가상구조예시2.png" alt="가상구조예시2" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/가상구조예시2.png" alt="가상구조예시2" style="zoom:80%;" /><br>
 
 + :nth-child
 
@@ -122,7 +122,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시3.png" alt="구조가상요소예시3" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시3.png" alt="구조가상요소예시3" style="zoom:80%;" /><br>
 
 + first-of-type
 
@@ -157,7 +157,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시4.png" alt="구조가상요소예시4" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시4.png" alt="구조가상요소예시4" style="zoom:80%;" /><br>
 
 + :last-of-type
 
@@ -192,7 +192,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시5.png" alt="구조가상요소예시5" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시5.png" alt="구조가상요소예시5" style="zoom:80%;" /><br>
 
 + :nth-of-type
 
@@ -228,7 +228,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시6.png" alt="구조가상요소예시6" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시6.png" alt="구조가상요소예시6" style="zoom:80%;" /><br>
 
 + :only-child
 
@@ -265,7 +265,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시7.png" alt="구조가상요소예시7" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시7.png" alt="구조가상요소예시7" style="zoom:80%;" /><br>
 
 + :only-of-type
 
@@ -302,7 +302,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시8.png" alt="구조가상요소예시8" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시8.png" alt="구조가상요소예시8" style="zoom:80%;" /><br>
 
 + :empty
 
@@ -330,7 +330,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시9.png" alt="구조가상요소예시9" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시9.png" alt="구조가상요소예시9" style="zoom:80%;" /><br>
 
 + :root
 
@@ -348,7 +348,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시10.png" alt="구조가상요소예시10" style="zoom:80%;" /><br>
+  <img src="../../images/2022-05-04-class13(structural-pseudo-class)/구조가상요소예시10.png" alt="구조가상요소예시10" style="zoom:80%;" /><br>
 
   **★HTML 문서에서 root 요소는 언제나 html 요소입니다.★**
 

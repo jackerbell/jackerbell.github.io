@@ -17,7 +17,7 @@ tag: HTML/CSS
 
     속성값이 블록인 요소는 언제나 새로운 라인에서 시작하며, 해당 라인의 모든 너비(width)를 차지합니다.  <br>
 
-    <img src="../images/2022-04-20-fourth/display-block.png" alt="display-block" style="zoom:70%;" />
+    <img src="../../images/2022-04-20-fourth/display-block.png" alt="display-block" style="zoom:70%;" />
 
     <br>
 
@@ -27,7 +27,7 @@ tag: HTML/CSS
 
     아래의 id="box2"의 경우 div안에 내용(content)이 없기 때문에 우측 웹페이지 상에서는 나타나지 않습니다.<br>
 
-    <img src="../images/2022-04-20-fourth/display-inline.png" alt="display-inline" style="zoom:70%;" />
+    <img src="../../images/2022-04-20-fourth/display-inline.png" alt="display-inline" style="zoom:70%;" />
 
     <br>
 
@@ -37,7 +37,7 @@ tag: HTML/CSS
 
     하지만 요소 내부에서는 블록(block)처럼 행동합니다. <br>
 
-    <img src="../images/2022-04-20-fourth/display-inline-block.png" alt="display-inline-block" style="zoom:70%;" />
+    <img src="../../images/2022-04-20-fourth/display-inline-block.png" alt="display-inline-block" style="zoom:70%;" />
 
     
 
@@ -55,7 +55,7 @@ tag: HTML/CSS
 
       visibility : hidden 은 요소가 웹페이지에 나타나지 않지만, 레이아웃 내에는 여전히 존재하게 되며 아래의 이미지는 두 속성의 비교를 나타낸 것입니다. <br>
 
-      <img src="../images/2022-04-20-fourth/display-none,visibility.png" alt="display-none,visibility" style="zoom:70%;" />
+      <img src="../../images/2022-04-20-fourth/display-none,visibility.png" alt="display-none,visibility" style="zoom:70%;" />
 
       <br>
 

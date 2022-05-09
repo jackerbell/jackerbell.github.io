@@ -27,7 +27,7 @@ tag: HTML/CSS
 
     웹 페이지 화면 ↓
 
-    <img src="../images/2022-04-23-seventh/audio.png" alt="audio" style="zoom:120%;" />
+    <img src="../../images/2022-04-23-seventh/audio.png" alt="audio" style="zoom:120%;" />
 
     사용할 수 있는 속성 표 추가 예정
 
@@ -56,7 +56,7 @@ tag: HTML/CSS
 
     웹 페이지 화면 ↓
 
-    ![video](../images/2022-04-23-seventh/video.png)
+    ![video](../../images/2022-04-23-seventh/video.png)
 
 사용할 수 있는 속성표 추가 예정
 
@@ -82,7 +82,7 @@ tag: HTML/CSS
 
     웹 페이지 화면 ↓
 
-    <img src="../images/2022-04-23-seventh/embed.png" alt="embed" style="zoom:120%;" />
+    <img src="../../images/2022-04-23-seventh/embed.png" alt="embed" style="zoom:120%;" />
 
     bounus
 
@@ -100,7 +100,7 @@ tag: HTML/CSS
 
     웹 페이지 화면 ↓
 
-    <img src="../images/2022-04-23-seventh/embedU2.png" alt="embedU2" style="zoom:80%;" />
+    <img src="../../images/2022-04-23-seventh/embedU2.png" alt="embedU2" style="zoom:80%;" />
 
     사용할 수 있는 속성 및 css기본값 추가예정
 
@@ -129,7 +129,7 @@ tag: HTML/CSS
 
     웹 페이지 화면 ↓
 
-    ![iframe](../images/2022-04-23-seventh/iframe.png)
+    ![iframe](../../images/2022-04-23-seventh/iframe.png)
 
     사용할 수 있는 속성 및 css 기본값 추가예정
 

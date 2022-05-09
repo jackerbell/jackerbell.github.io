@@ -19,7 +19,7 @@ tag: HTML/CSS
 
   * CSS를 사용하면 패딩 영역의 크기를 방향별로 따로 설정할 수 있습니다. <br>
 
-    <img src="../images/2022-04-27-class9(padding)/padding.png" alt="padding" style="zoom:67%;" />
+    <img src="../../images/2022-04-27-class9(padding)/padding.png" alt="padding" style="zoom:67%;" />
 
     <br>
 
@@ -51,7 +51,7 @@ div.pad {
 
 웹 페이지 화면 ↓
 
-![padding영역설정](../images/2022-04-27-class9(padding)/padding영역설정.png)
+![padding영역설정](../../images/2022-04-27-class9(padding)/padding영역설정.png)
 
 <br>
 
@@ -78,7 +78,7 @@ div.three { padding: 20px 50px 30px; }
 
 웹 페이지 화면 ↓
 
-![padding축약설정](../images/2022-04-27-class9(padding)/padding축약설정.png)
+![padding축약설정](../../images/2022-04-27-class9(padding)/padding축약설정.png)
 
 <br>
 

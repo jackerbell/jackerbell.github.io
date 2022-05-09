@@ -34,7 +34,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  ![static](../images/2022-04-27-class9(position)/static.png)<br>
+  ![static](../../images/2022-04-27-class9(position)/static.png)<br>
 
   * 상대위치(relative position) 지정 방식
 
@@ -65,7 +65,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  ![relative](../images/2022-04-27-class9(position)/relative.png)<br>
+  ![relative](../../images/2022-04-27-class9(position)/relative.png)<br>
 
   * 고정 위치(fixed position) 지정 방식
 
@@ -128,11 +128,11 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  <img src="../images/2022-04-27-class9(position)/fixed1.png" alt="fixed1" style="zoom:150%;" />
+  <img src="../../images/2022-04-27-class9(position)/fixed1.png" alt="fixed1" style="zoom:150%;" />
 
   제목 3까지 스크롤 후 ↓
 
-  ![fixed2](../images/2022-04-27-class9(position)/fixed2-165104440040522.png) <br>
+  ![fixed2](../../images/2022-04-27-class9(position)/fixed2-165104440040522.png) <br>
 
   * 절대 위치(absolute position) 지정 방식
 
@@ -168,7 +168,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  ![absolute](../images/2022-04-27-class9(position)/absolute.png)<br>
+  ![absolute](../../images/2022-04-27-class9(position)/absolute.png)<br>
 
   > ※ 위치가 설정된 요소라는 것은 정적 위치(static position) 지정 방식을 제외한 다른 방식(relative, fixed, absolute)으로 위치가 설정된 요소를 의미합니다.
 
@@ -217,9 +217,9 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  ![종합예제](../images/2022-04-27-class9(position)/종합예제.png)
+  ![종합예제](../../images/2022-04-27-class9(position)/종합예제.png)
 
-  ![종합예제2](../images/2022-04-27-class9(position)/종합예제2.png)<br>
+  ![종합예제2](../../images/2022-04-27-class9(position)/종합예제2.png)<br>
 
   * z-index
     - HTML 요소의 위치를 설정하게 되면 어떤 요소들은 설정된 위치 및 방식에 따라 서로 겹칠 수 있습니다.
@@ -265,7 +265,7 @@ tag: HTML/CSS
 
   웹 페이지 화면 ↓
 
-  ![zindex](../images/2022-04-27-class9(position)/zindex.png)<br>
+  ![zindex](../../images/2022-04-27-class9(position)/zindex.png)<br>
 
   * CSS position 속성
 
