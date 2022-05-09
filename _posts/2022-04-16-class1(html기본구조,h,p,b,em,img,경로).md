@@ -1,5 +1,5 @@
 ---
-categories: HTML_CSS
+
 ---
 
 # 2022. 4. 12. 수업내용 정리 
@@ -20,13 +20,13 @@ categories: HTML_CSS
   HTML의 기본 구조는 아래의 이미지와 같습니다.<br>
   
   ```html
-
+  
   <!DOCTYPE html>       <!--현재 문서가 HTML5(현재버전)임을 명시합니다.-->
   <html lang="en">      <!--HTML의 루트와 언어를 명시합니다.-->
   <head>                <!--HTML문서의 메타데이터(metadata)를 정의합니다.-->
                         <!--메타데이터는 문서에 대한 정보로 웹 브라우저에는 직접적으로 표현되지 않는 정보를 의미합니다. <title>,<style>,<meta>,<link>,<scripot>,<base>태그
                         등이 이에 속합니다.-->
-
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,10 +34,10 @@ categories: HTML_CSS
                                      제목으로 표시됩니다.-->
   </head>
   <body>         <!--웹 브라우저를 통해 보이는 내용 부분입니다.-->
-
+  
   </body>
   </html>
-
+  
   ```
 
   <br><br><br><br><br>
@@ -66,7 +66,7 @@ categories: HTML_CSS
   ```
 
   * b : 글자를 진하게 나타냅니다. 
- 
+
   ```html
 
   <b>b tag</b> <!--b-->
@@ -90,7 +90,7 @@ categories: HTML_CSS
   <!--img-->
   <!--src는 경로, alt는 이미지 설명-->
 
-  ``` 
+  ```
 
   <br>
 
@@ -105,21 +105,21 @@ categories: HTML_CSS
   
      - "http(https)" : 주소 값이 고정적으로 지정 되어 있음. <br>
      - "/(//)" : 최상위 루트를 의미. <br><br>
-    
+      
     > 현재 나의 위치: sub01.html <br>
     > 내가 찾고자 하는 파일: ceo.jpg <br>
     > 알맞은 경로: ```<img src = "http//127.0.0.1:5500/sub/img/ceo.jpg">``` <br>
-   
+  
     > 현재 나의 위치: left_menu.html <br>
     > 내가 찾고자 하는 파일: ceo.jpg <br>
     > 알맞은 경로: ``` <img src = "http//127.0.0.1:5500/sub/img/ceo.jpg">``` <br>
     
   * 상대경로 : 기준점에 따라 변하는 경로로 파일의 위치에 따라 변경이 가능합니다. <br>
    <img src="https://velog.velcdn.com/images%2Fwlsdnjs156%2Fpost%2Fe35cfb3d-67b3-420c-ab60-f02d4b9d24f1%2Fimage.png">  <br><br>
-   
+  
      - "./"  : 내 주변 폴더에서 찾음 <br>
      - "../" : 나의 상위 폴더로 이동해서 찾음 <br><br>
-    
+      
     > 현재 나의 위치: index.html <br>
     > 내가 찾고자 하는 파일: ceo.jpg <br>
     > 알맞은 경로: ```<img src="./sub/img/ceo.jpg">``` <br>
