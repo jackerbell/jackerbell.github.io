@@ -52,7 +52,7 @@ categories: HTML
 
     아래는 위의 코드를 실행한 후 나온 결과이다.
 
-    <img src="../images/2022-04-23-sixth/div vs span.png" alt="div vs span" style="zoom:150%;" />
+    <img src="../../images/2022-04-23-sixth/div vs span.png" alt="div vs span" style="zoom:150%;" />
 
     <br>span은 인라인 요소이기에 내부에 컨텐츠가 필요하고 컨텐츠의 크기만큼만 영역을 차지하는 반면, div는 블록 요소이므로 한 칸 모두를 차지하고 세로로 자동 정렬됩니다.
 
@@ -111,7 +111,7 @@ categories: HTML
 
     웹 화면 ↓
 
-    <img src="../images/2022-04-23-sixth/formlabel.png" alt="formlabel" style="zoom:150%;" />
+    <img src="../../images/2022-04-23-sixth/formlabel.png" alt="formlabel" style="zoom:150%;" />
 
 + table
 
@@ -220,7 +220,7 @@ categories: HTML
       
       웹 페이지 화면 ↓
       
-      <img src="../images/2022-04-23-sixth/table.png" alt="table" style="zoom:120%;" />
+      <img src="../../images/2022-04-23-sixth/table.png" alt="table" style="zoom:120%;" />
 
       bonus.. (with border-radius).. 테이블과 응용가능
 
@@ -254,6 +254,6 @@ categories: HTML
       
       웹 페이지 화면 ↓
       
-      ![radius](../images/2022-04-23-sixth/radius.png)
+      ![radius](../../images/2022-04-23-sixth/radius.png)
 
 ​				
