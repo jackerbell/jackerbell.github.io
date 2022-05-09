@@ -99,5 +99,5 @@ categories: HTML_CSS
         - <img src="../images/2022-04-16-class2(a,ol,ul,li)/java.png" alt="java" style="zoom:80%;" />
         - <img src="../images/2022-04-16-class2(a,ol,ul,li)/spring.jpg" alt="spring" style="zoom:80%;" />
         - <img src="../images/2022-04-16-class2(a,ol,ul,li)/docker.png" alt="docker" style="zoom:80%;" />
-        -  <img src="../_images/2022-04-16-class2(a,ol,ul,li)/MySQL.png" alt="MySQL" style="zoom:80%;" />
+        - <img src="../_images/2022-04-16-class2(a,ol,ul,li)/MySQL.png" alt="MySQL" style="zoom:80%;" />
 
