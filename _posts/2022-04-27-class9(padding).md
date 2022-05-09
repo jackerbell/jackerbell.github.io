@@ -1,5 +1,5 @@
 ---
-categories: HTML/CSS
+categories: Coding
 tag: HTML/CSS
 ---
 
