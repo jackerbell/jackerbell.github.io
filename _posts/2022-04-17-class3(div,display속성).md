@@ -73,7 +73,7 @@ categories: HTML
 
   아래 ▼ 는 위의 코드를 실행한 결과이다. <br>
 
-   ![div1](../images/2022-04-17-third/div1.png)
+   ![div1](../../images/2022-04-17-third/div1.png)
 
   <br>
 
