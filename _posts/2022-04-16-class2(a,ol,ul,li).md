@@ -89,16 +89,15 @@ categories: HTML/CSS
   위의 코드를 적용하면 아래 ▼ 와 같은 결과가 나온다. <br><br>
     + 프론트엔드 
       * 기술스택
-        - <img src="../images/2022-04-16-second/html-css.png" alt="html-css" style="zoom:67%;" />
-        - <img src="../images/2022-04-16-second/javascript.png" alt="javascript" style="zoom:67%;" />
-        - ![react](../images/2022-04-16-second/react.png)
-        - <img src="../images/2022-04-16-second/VUE.PNG" alt="VUE" style="zoom: 67%;" />
+        - <img src="../images/2022-04-16-class2(a,ol,ul,li)/html-css.png" alt="html-css" style="zoom:80%;" />
+        - <img src="../images/2022-04-16-class2(a,ol,ul,li)/javascript.png" alt="javascript" style="zoom:80%;" />
+        - ![react](../images/2022-04-16-class2(a,ol,ul,li)/react.png)
+        - <img src="../images/2022-04-16-class2(a,ol,ul,li)/VUE.PNG" alt="VUE" style="zoom:80%;" />
     
     + 백엔드
       * 기술스택
-        - ![java](../images/2022-04-16-second/java.png)
-        - <img src="../images/2022-04-16-second/spring.jpg" alt="spring" style="zoom: 33%;" />
-        - ![docker](../images/2022-04-16-second/docker-16501231867039.png)
-        -  <img src="../images/2022-04-16-second/MySQL.png" alt="MySQL" style="zoom:67%;" />
+        - <img src="../images/2022-04-16-class2(a,ol,ul,li)/java.png" alt="java" style="zoom:80%;" />
+        - <img src="../images/2022-04-16-class2(a,ol,ul,li)/spring.jpg" alt="spring" style="zoom:80%;" />
+        - <img src="../images/2022-04-16-class2(a,ol,ul,li)/docker.png" alt="docker" style="zoom:80%;" />
+        -  <img src="../images/2022-04-16-class2(a,ol,ul,li)/MySQL.png" alt="MySQL" style="zoom:80%;" />
 
- 
