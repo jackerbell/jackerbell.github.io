@@ -1,5 +1,5 @@
 ---
-categories: HTML/CSS
+categories: HTML_CSS
 ---
 
 # 2022. 4. 12. 수업내용 정리 
