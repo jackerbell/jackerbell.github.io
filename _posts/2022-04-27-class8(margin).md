@@ -18,7 +18,7 @@ categories: HTML
 
   * CSS 사용 시 마진 영역의 크기를 방향별로 따로 설정할 수 있습니다.
 
-    <img src="../images/2022-04-27-class8(margin,padding,position)/margin-padding.png" alt="margin-padding" style="zoom:67%;" />
+    <img src="../../images/2022-04-27-class8(margin,padding,position)/margin-padding.png" alt="margin-padding" style="zoom:67%;" />
 
 + 마진(margin) 속성
 
@@ -48,7 +48,7 @@ categories: HTML
 
   웹 페이지 화면 ↓
 
-  ![marginexample](../images/2022-04-27-class8(margin,padding,position)/marginexample-16510353879533.png)
+  ![marginexample](../../images/2022-04-27-class8(margin,padding,position)/marginexample-16510353879533.png)
 
   <br>
 
@@ -80,7 +80,7 @@ categories: HTML
 
   웹 페이지 화면 ↓
 
-  ![margininerit](../images/2022-04-27-class8(margin,padding,position)/margininerit.png)
+  ![margininerit](../../images/2022-04-27-class8(margin,padding,position)/margininerit.png)
 
 + 마진 축약표현
 
@@ -109,7 +109,7 @@ categories: HTML
 
     웹 페이지 화면 ↓
 
-    <img src="../images/2022-04-27-class8(margin)/margin축약.png" alt="margin축약"  />
+    <img src="../../images/2022-04-27-class8(margin)/margin축약.png" alt="margin축약"  />
 
     - 예시
 
@@ -196,7 +196,7 @@ categories: HTML
 
     웹 페이지 화면 ↓
 
-    ![marginauto](../images/2022-04-27-class8(margin)/marginauto.png)
+    ![marginauto](../../images/2022-04-27-class8(margin)/marginauto.png)
 
     <br><br>
 
