@@ -1,5 +1,6 @@
 ---
-categories: HTML
+categories: HTML/CSS
+tag: HTML/CSS
 ---
 
 
