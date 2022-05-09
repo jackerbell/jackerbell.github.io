@@ -61,7 +61,7 @@ categories: HTML
 
 아래는 위의 코드를 실행시켜 웹에서 본 결과이다.<br>
 
-<img src="../images/2022-04-23-fifth/float설명.png" alt="float설명" style="zoom:70%;" />
+<img src="../../images/2022-04-23-fifth/float설명.png" alt="float설명" style="zoom:70%;" />
 
 - float 사용 시 **주의사항!!**
 
