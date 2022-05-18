@@ -16,6 +16,8 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
+published                : true
+future                   : true
 title                    : "Front-End_Develop"
 title_separator          : "|"
 subtitle                 : "small positive action"
