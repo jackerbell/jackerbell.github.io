@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/noto-serif-v6-latin-regular.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/noto-serif-v6-latin-regular.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 400;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/noto-serif-v6-latin-italic.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/noto-serif-v6-latin-italic.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/noto-serif-v6-latin-700.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/noto-serif-v6-latin-700.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 700;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/noto-serif-v6-latin-700italic.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/noto-serif-v6-latin-700italic.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/pt-sans-v9-latin-regular.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/pt-sans-v9-latin-regular.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 100;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Light.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Light.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-DemiLight.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-DemiLight.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Regular.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Regular.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Medium.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Medium.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Bold.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Bold.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Black.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/NotoSans-Black.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: "RIDI Batang";
+  font-style: normal;
+  font-weight: 400;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/RIDIBatang.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 400;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/nanum-gothic-coding-v14-latin_korean-regular.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/nanum-gothic-coding-v14-latin_korean-regular.woff" ) format( "woff" );
+}
+@font-face {
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 700;
+  src: url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/nanum-gothic-coding-v14-latin_korean-700.woff2" ) format( "woff2" ),
+       url( "//cdn.jsdelivr.net/gh/jbfactory/jb-theme-fonts/fonts/nanum-gothic-coding-v14-latin_korean-700.woff" ) format( "woff" );
+}

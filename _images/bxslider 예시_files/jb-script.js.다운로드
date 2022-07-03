@@ -1,0 +1,34 @@
+jQuery( document ).ready( function( $ ) {
+  // Menu
+    $( '#jb-bars i' ).click( function() {
+      $( '.jb-header-table-cell-search' ).slideToggle();
+      $( '.jb-cell-navigation' ).slideToggle();
+    } );
+    $( 'ul#jb-main-menu > li.menu-item-has-children > a' ).click( function() {
+      $( 'ul#jb-main-menu > li.menu-item-has-children > a' ).not( this ).next().slideUp( 300 );
+      $( this ).toggleClass( 'jb-menu-children-toggle' ).next().slideToggle( 300 );
+    } );
+  // Top Button
+    $( window ).scroll( function() {
+      if ( $( this ).scrollTop() > 200 ) { $( '.jb-top' ).fadeIn(); }
+      else { $( '.jb-top' ).fadeOut(); }
+    } );
+    $( '.jb-top' ).click( function() { $( 'html, body' ).animate( { scrollTop : 0 }, 600 ); return false; } );
+  // Menu - Sidebar
+    $( '.jb-widget-sidebar-right ul.menu > li > a' ).click( function() {
+      $( this ).siblings().slideToggle();
+    } );
+    $( '.jb-widget-sidebar-right ul.menu > li > ul' ).has( 'li.current-menu-item' ).addClass( 'jb-menu-has-active' );
+  // Menu - Post & Page
+    $( '.jb-content ul.menu a' ).not( '[href]' ).addClass( 'jb-menu-no-link' );
+  // Fixed - Left
+    var jbOffset = $( '.jb-adsense-f' ).offset();
+    $( window ).scroll( function() {
+      if ( $( document ).scrollTop() > 72 ) {
+        $( '.jb-adsense-f' ).addClass( 'jb-adsense-f-fix' );
+      }
+      else {
+        $( '.jb-adsense-f' ).removeClass( 'jb-adsense-f-fix' );
+      }
+    } );
+} );
