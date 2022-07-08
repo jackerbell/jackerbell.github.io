@@ -254,7 +254,7 @@ tag: Jquery
 
   웹페이지 화면 ▼
 
-  <video src="../../_images/bxslider-text-slider-01.mp4"></video>
+  <img src="../../images/2022-07-03-class09(bxslider)/GOMCAM_20220708_1444440927_AdobeExpress.gif" alt="GOMCAM_20220708_1444440927_AdobeExpress" style="zoom:150%;" />
 
   <br>
 
