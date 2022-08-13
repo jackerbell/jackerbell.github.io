@@ -1,6 +1,6 @@
 ---
 categories: Coding	
-tag: Node.js, react, mySQL
+tag: Node.js
 ---
 
 
