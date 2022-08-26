@@ -524,4 +524,153 @@ tag: react
 
    <br><br>
 
+   * 페이지네이션 하이라이트 적용
+   
+     이제 페이지네이션에 하이라이트를 적용하여 현재페이지 위치를 명확하게 나타냅니다.<br>
+   
+     먼저 첫페이지는 1페이지를 렌더링시키므로, 1페이지는 렌더링이 된 시점에서 하이라이트 적용이 되어있어야합니다.<br>
+   
+     `componentDidMound`함수는 DOM이 완성되고나서 자동으로 호출이 되므로 페이지네이션의 DOM 요소에 접근해 첫 번째 요소에만 하이라이트를 적용하면 됩니다. <br>
+   
+     원하는 페이지로 이동하기 위해서 특정 페이지네이션을 클릭하거나 이전, 다음 버튼을 눌러 이동할 때도 적용되도록하려면 아래의 코드와 같이 적용하면 됩니다. <br>
+   
+   ```react
+   import '../css/PagiNation.css';
+   import { Component } from 'react';
+   
+   class PagiNation extends Component {
+   
+     constructor(props){
+       super(props)
+       this.state={
+         
+       }
+     }
+   
+     componentDidMount(){//DOM이 완성되고나서 자동호출
+       var pageList=document.querySelectorAll('.page')
+   
+       pageList[1].style.color='darkgray'//css 속성에 접근 및 글자색 하이라이트 
+       pageList[1].style.backgroundColor='black'//css속성에 접근 및 배경색 하이라이트
+     }
+   
+   
+     setPageHighLight=(page)=>{
+       alert(page+"페이지 하이라이트!")
+       //className="page"
+       var pageList=document.getElementById('page'+page)//선택한 페이지만 하이라이트 적용하면 되므로 class대신 pageList에서 페이지네이션 생성시 추가로 id를 부여하고 해당 요소에 접근
+       pageList.style.color="darkgray"
+       pageList.style.backgroundColor="black"
+     }
+   
+     setAllDefault=()=>{
+       alert("모두해제!")
+       var pageList=document.getElementsByClassName('page')//모든 페이지네이션 요소에 접근
+       var pageListLength=pageList.length
+       for(var i=0; i<pageListLength; i++){// 순차적으로 모두 default값으로 설정.. 
+         pageList[i].style.color="black"
+         pageList[i].style.backgroundColor="darkgray"
+       } 
+     }
+   
+   
+   
+   
+     setCurrentPage=(page)=>{
+       //alert("페이지번호 클릭됨!")
+       alert(page+"페이지 클릭!")
+       this.props.setCurrentPage(page)
+       //App.js의 setCurrentPage함수
+     }
+   
+     prevPage=()=>{
+       const {currentPage,setCurrentPage} = this.props
+       if(currentPage === 1){
+         alert('이동불가!')
+         return 
+       }
+       else{
+         const prevPage = currentPage - 1 
+         setCurrentPage(prevPage)        // 1. 페이지 설정, 2. 모든 페이지네이션 default처리 3. 선택된 페이지네이션(이전 버튼으로 선택된 현재 페이지 기준) 하이라이트 적용
+         this.setAllDefault()
+         this.setPageHighLight(prevPage)
+       }
+     }
+   
+     nextPage=()=>{
+       const {currentPage,postListLength,postListPerPage,setCurrentPage} = this.props
+       const endIndex = Math.ceil(postListLength/postListPerPage)
+       if( currentPage === endIndex){
+         alert('이동불가!')
+         return 
+       }
+       else{
+         const nextPage = currentPage + 1
+         setCurrentPage(nextPage) // 1. 페이지 설정, 2. 모든 페이지네이션 default처리 3. 선택된 페이지네이션(다음 버튼으로 선택된 현재 페이지 기준) 하이라이트 적용
+         this.setAllDefault()
+         this.setPageHighLight(nextPage)
+       }
+     }
+   
+     render(){
+   
+       const {postListLength,postListPerPage}=this.props
+       //10,3
+       //3,3,3,1 - 1페이지~4페이지, 10/3 -> 3.33 -> 4
+       let pageNumbers=[];//페이지 번호가 들어갈 배열
+       console.log(postListLength)//10
+       console.log(postListPerPage)//3
+       const lastPageNum=Math.ceil(postListLength/postListPerPage)//4
+       for(var i=1; i<=lastPageNum; i++){//1~4
+         pageNumbers.push(i)//1,2,3,4
+       }
+       console.log(pageNumbers)//[1,2,3,4]
+   
+       const pageList=pageNumbers.map(
+         (data)=>(<span className='page' key={data} id={'page'+data}
+         onClick={()=>{this.setCurrentPage(data); this.setAllDefault(data); this.setPageHighLight(data) }}>{data}</span>)
+       )
+       //1. 페이지 설정, 2. 모든 페이지네이션 default값으로 설정, 3. 선택한 페이지네이션(해당 페이지네이션을 직접 클릭) 하이라이트 적용..
+   
+       return (  
+         <div id='pagination'>
+             <div>
+               총 글 갯수:{postListLength}
+             </div>
+             <div>
+               페이지당 글 갯수:{postListPerPage}
+             </div>
+             <div>
+               <span className='page' onClick={this.prevPage}>〈</span>
+               {pageList}
+               <span className='page' onClick={this.nextPage}>〉</span>
+             </div>
+         </div>
+       );
+     }
+   }
+   
+   export default PagiNation;
+   ```
+   
+   웹페이지 화면 ▼
+   
+   ![모두연동](../../images/2022-08-19-class03(pagination)/모두연동-16615119064151.png)<br>
+   
+   다음페이지 클릭(2페이지 클릭) ▼
+   
+   ![모두연동](../../images/2022-08-19-class03(pagination)/모두연동-16615123281045.png)<br>
+   
+   다음페이지 전환 및 하이라이트 적용(2페이지) ▼
+   
+   ![모두연동](../../images/2022-08-19-class03(pagination)/모두연동-16615122640433.png)<br>
+   
+   이전페이지 클릭(1페이지 클릭) ▼
+   
+   ![모두연동](../../images/2022-08-19-class03(pagination)/모두연동-16615133994167.png)<br>
+   
+   이전페이지 전환 및 하이라이트 적용(1페이지)▼
+   
+   ![모두연동](../../images/2022-08-19-class03(pagination)/모두연동-16615134993559.png)<br><br><br><br>
+   
    ref) https://bsscl.tistory.com/70 리액트 이벤트 즉시실행 문제
