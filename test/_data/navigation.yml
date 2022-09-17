@@ -9,7 +9,7 @@ main:
   - title: "Sitemap"
     url: /sitemap/
   - title: "Extra Menu Item 1"
-    url: /
+    url: /  
   - title: "Extra Menu Item 2"
     url: /
   - title: "Extra Menu Item Long Title"
