@@ -4,6 +4,7 @@ permalink: /docs/navigation/
 excerpt: "Instructions on how to customize the main navigation and enabling breadcrumb links."
 last_modified_at: 2018-03-20T15:59:40-04:00
 toc: true
+author_profile: false
 ---
 
 Customize site navigational links through a Jekyll data file.

@@ -11,6 +11,7 @@ tags:
   - html
   - markup
 toc: true
+author_profile: false
 ---
 
 A variety of common markup showing how the theme styles them.

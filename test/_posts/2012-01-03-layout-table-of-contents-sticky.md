@@ -3,6 +3,7 @@ title: "Layout: Post with Sticky Table of Contents"
 tags:
   - table of contents
 toc: true
+author_profile: false
 toc_sticky: true
 ---
 
@@ -11,6 +12,7 @@ toc_sticky: true
 ```yaml
 ---
 toc: true
+author_profile: false
 toc_sticky: true
 ---
 ```

@@ -2,6 +2,7 @@
 categories: Coding	
 tag: Javascript
 toc: true
+author_profile: false
 ---
 
 

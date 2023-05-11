@@ -9,6 +9,7 @@ single_layout_gallery:
     alt: "single layout with comments and related posts"
 last_modified_at: 2020-08-30T21:27:40-04:00
 toc: true
+author_profile: false
 toc_label: "Included Layouts"
 toc_icon: "columns"
 ---
@@ -120,7 +121,8 @@ classes: wide
 
 ### Table of contents
 
-Auto-generated table of contents list for your posts and pages can be enabled by adding `toc: true` to the YAML Front Matter.
+Auto-generated table of contents list for your posts and pages can be enabled by adding `toc: true
+author_profile: false` to the YAML Front Matter.
 
 ![table of contents example]({{ "/assets/images/mm-toc-helper-example.jpg" | relative_url }})
 
@@ -136,6 +138,7 @@ Auto-generated table of contents list for your posts and pages can be enabled by
 ```yaml
 ---
 toc: true
+author_profile: false
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 ---

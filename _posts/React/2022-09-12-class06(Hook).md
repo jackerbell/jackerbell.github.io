@@ -2,6 +2,7 @@
 categories: Coding	
 tag: react
 toc: true
+author_profile: false
 ---
 
 

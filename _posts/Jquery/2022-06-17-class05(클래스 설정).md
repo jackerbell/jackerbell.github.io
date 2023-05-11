@@ -2,6 +2,7 @@
 categories: Coding	
 tag: Jquery
 toc: true
+author_profile: false
 ---
 
 

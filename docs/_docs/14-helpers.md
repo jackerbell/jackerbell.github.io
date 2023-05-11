@@ -32,6 +32,7 @@ feature_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 last_modified_at: 2020-05-01T10:22:56-04:00
 toc: true
+author_profile: false
 toc_label: "Helpers"
 toc_icon: "cogs"
 ---
@@ -273,7 +274,8 @@ Auto-generated table of contents list for your posts and pages can be enabled us
 
 ### Enabled via YAML Front Matter
 
-Add `toc: true` to the YAML Front Matter of any post or page.
+Add `toc: true
+author_profile: false` to the YAML Front Matter of any post or page.
 
 | Parameter      | Required | Description                                                 | Default                                                                                                                                                       |
 | -------------- | -------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -286,13 +288,15 @@ Add `toc: true` to the YAML Front Matter of any post or page.
 
 ```yaml
 toc: true
+author_profile: false
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 ---
 
 ```
 
-**Note:** using both methods will have unintended results. Be sure to remove `{% raw %}{% include toc %}{% endraw %}` placed table of contents from your content when using `toc: true`.
+**Note:** using both methods will have unintended results. Be sure to remove `{% raw %}{% include toc %}{% endraw %}` placed table of contents from your content when using `toc: true
+author_profile: false`.
 {: .notice--warning }
 
 {% capture notice-text %}

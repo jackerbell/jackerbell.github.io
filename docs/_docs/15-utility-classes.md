@@ -4,6 +4,7 @@ permalink: /docs/utility-classes/
 excerpt: "CSS classes for aligning text/image, styling buttons and notices, and more."
 last_modified_at: 2018-11-25T19:46:43-05:00
 toc: true
+author_profile: false
 toc_label: "Utility Classes"
 toc_icon: "cogs"
 ---

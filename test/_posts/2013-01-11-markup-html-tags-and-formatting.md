@@ -11,6 +11,7 @@ tags:
   - html
   - markup
 toc: true
+author_profile: false
 toc_sticky: true
 ---
 
