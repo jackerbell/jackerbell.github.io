@@ -1,6 +1,8 @@
 ---
 categories: Coding
-tag: HTML/CSS
+tag: HTML/CSS 
+toc: true
+toc: true
 ---
 
 

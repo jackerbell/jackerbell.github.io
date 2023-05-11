@@ -1,6 +1,7 @@
 ---
 categories: Coding	
 tag: Java
+toc: true
 ---
 
 # 2023. 01. 04. 수업 내용 정리

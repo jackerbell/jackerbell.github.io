@@ -1,6 +1,7 @@
 ---
 categories: Coding	
 tag: Javascript
+toc: true
 ---
 
 

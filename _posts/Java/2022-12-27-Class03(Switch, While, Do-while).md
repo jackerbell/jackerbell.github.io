@@ -1,6 +1,7 @@
 ---
 categories: Coding	
 tag: Java
+toc: true
 ---
 
 # 2022. 12. 27. 수업내용 정리
